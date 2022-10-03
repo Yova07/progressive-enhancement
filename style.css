@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(#5D89EA, #DECE3F);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------General----------*/
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: rgb(92, 8, 8);
+}
+h2 {
+    font-size: 3em;
+}
+
+/*----------Header----------*/
+
+header h1:first-child {
+    background-color: yellow;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+img {
+    float: left;
+    width: 500px;
+    margin-right: 100px;
+}
+figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/*---------Story---------*/
+
+.story {
+    margin-top: 150px;
+}
+q {
+    margin: 80px auto;
+    display: block;
+    text-align: center;
+    width: 45%;
+    font-size: 1.6em;
+    background-color: rgb(233, 227, 227);
+    padding: 30px 30px 30px 0;
+    font-style: italic;
+}
+blockquote {
+    width: 45%;
+    margin: 80px auto;
+    font-size: 1.6em;
+    background-color: rgb(233, 227, 227);
+    padding: 30px;
+    border-left: 3px solid grey;
+
+}
+.villagers {
+    border-left: 3px solid red;
+}
+.farmer {
+    border-left: 3px solid green;
+}
+
+/*---------Table----------*/
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+table {
+    margin-bottom: 10px;
+}
+table tr:nth-child(2n) {
+    background-color: white;
+}
+table tr:nth-child(2n+1) {
+    background-color: grey;
+}
+
+/*----------Link----------*/
+
+a {
+    color: black;
+    font-size: 1.4em;
+    cursor: crosshair;
+}
+a:visited {
+    color: red;
+}
+
+/*----------Footer----------*/
+
+footer {
+    font-size: 0.8em;
+    margin-top: 100px;
+}
+
+
